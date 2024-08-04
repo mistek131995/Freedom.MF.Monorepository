@@ -6,7 +6,7 @@ pipeline
         stage('Build image')
         {
             steps {
-				sh 'docker build -t mf.host.${BUILD_NUMBER} /home/source/packages/host'
+				sh 'docker build -f HostDockerFile -t mf.host.${BUILD_NUMBER} /home/source/packages/host'
             }
         }
         stage('Stop container')
