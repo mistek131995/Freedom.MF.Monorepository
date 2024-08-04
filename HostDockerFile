@@ -5,7 +5,9 @@ COPY . .
 
 
 RUN apt update && apt -y install nginx &&  \
-    npm install pnpm && pnpm install #&& pnpm run build_host
+    npm install pnpm #&& pnpm run build_host
+
+RUN pnpm install
 
 EXPOSE 80
 
