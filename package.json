@@ -7,6 +7,7 @@
   ],
   "scripts": {
     "build": "pnpm  --parallel --filter \"./**\" build",
+    "build_host": "pnpm --prefix ./packages/host build",
     "preview": "pnpm  --parallel --filter \"./**\" preview",
     "stop": "kill-port --port 5000,5001"
   },

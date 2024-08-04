@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05fb99bd-58d9-49fb-94b9-37115260dc35" name="Changes" comment="Пайплайн сборки" />
+    <list default="true" id="05fb99bd-58d9-49fb-94b9-37115260dc35" name="Changes" comment="Пайплайн сборки">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/host/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/packages/host/Dockerfile" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +61,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "npm.build.executor": "Run",
+    "npm.build_host.executor": "Run",
     "npm.preview.executor": "Run",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "ts.external.directory.path": "C:\\Projects\\Freedom\\MF\\monorepository\\node_modules\\typescript\\lib",
@@ -71,12 +76,22 @@
       <recent name="C:\Projects\Freedom\MF\monorepository\packages\host" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.preview">
+  <component name="RunManager" selected="npm.build_host">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build_host" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build_host" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -94,6 +109,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build_host" />
         <item itemvalue="npm.preview" />
         <item itemvalue="npm.build" />
       </list>
@@ -286,7 +302,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722774904289</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Пайплайн сборки">
+      <option name="closed" value="true" />
+      <created>1722775399081</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1722775399081</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
