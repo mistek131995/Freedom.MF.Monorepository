@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05fb99bd-58d9-49fb-94b9-37115260dc35" name="Changes" comment="Реализация монорепозитория">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="05fb99bd-58d9-49fb-94b9-37115260dc35" name="Changes" comment="Подготовка к деплою" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -168,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722753802255</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Подготовка к деплою">
+      <option name="closed" value="true" />
+      <created>1722754327652</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722754327652</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +185,7 @@
       <path value="$PROJECT_DIR$/packages/app-catalog" />
     </ignored-roots>
     <MESSAGE value="Реализация монорепозитория" />
-    <option name="LAST_COMMIT_MESSAGE" value="Реализация монорепозитория" />
+    <MESSAGE value="Подготовка к деплою" />
+    <option name="LAST_COMMIT_MESSAGE" value="Подготовка к деплою" />
   </component>
 </project>
