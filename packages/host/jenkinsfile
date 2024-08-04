@@ -1,0 +1,36 @@
+pipeline
+{
+    agent any
+    stages
+    {
+        stage('Build image')
+        {
+            steps {
+				sh 'docker build -t mf.host.${BUILD_NUMBER} /home/source/packages/host'
+            }
+        }
+        stage('Stop container')
+        {
+            steps {
+                script{
+                    def containerId = sh (script: 'docker ps -q -f name=mf.host', returnStdout: true)
+
+                    if(containerId != ''){
+                        sh "docker stop ${containerId}"
+                    }
+                }
+            }
+        }
+        stage('Run container')
+        {
+            steps {
+				sh 'docker run -d -p 80:80 --name=mf.host.${BUILD_NUMBER} --restart=always mf.host.${BUILD_NUMBER}'
+            }
+        }
+        stage('Clear images') {
+            steps {
+                sh "docker system prune -af"
+            }
+        }
+    }
+}

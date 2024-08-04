@@ -16,13 +16,5 @@ pipeline
 				sh 'git clone https://github.com/mistek131995/Freedom.MF.Monorepository.git /home/source'
             }
         }
-
-        stage('Start any pipline')
-        {
-            steps {
-                build job: 'MF.Host', parameters: []
-                build job: 'MF.AppCatalog', parameters: []
-            }
-        }
     }
 }

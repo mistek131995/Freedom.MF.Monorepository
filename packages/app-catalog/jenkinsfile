@@ -1,0 +1,36 @@
+pipeline
+{
+    agent any
+    stages
+    {
+        stage('Build image')
+        {
+            steps {
+				sh 'docker build -t mf.app_catalog.${BUILD_NUMBER} /home/source/packages/app-catalog'
+            }
+        }
+        stage('Stop container')
+        {
+            steps {
+                script{
+                    def containerId = sh (script: 'docker ps -q -f name=mf.app_catalog', returnStdout: true)
+
+                    if(containerId != ''){
+                        sh "docker stop ${containerId}"
+                    }
+                }
+            }
+        }
+        stage('Run container')
+        {
+            steps {
+				sh 'docker run -d -p 81:80 --name=mf.app_catalog.${BUILD_NUMBER} --restart=always mf.app_catalog.${BUILD_NUMBER}'
+            }
+        }
+        stage('Clear images') {
+            steps {
+                sh "docker system prune -af"
+            }
+        }
+    }
+}
