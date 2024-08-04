@@ -1,42 +1,52 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@media only screen and (max-device-width: 576px)
+{
+    body{
+        background-color: black;
+    }
+
+    #top_menu{
+
+    }
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/*@media only screen and (min-device-width: 576px) and (max-device-width: 992px)*/
+/*{*/
+/*    body{*/
+/*        background-color: black;*/
+/*    }*/
+/*}*/
+
+@media only screen and (min-device-width: 576px)
+{
+    body{
+        background-color: black;
+    }
+
+    div#top_menu{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    div#top_menu div{
+        display: flex;
+        color: white;
+    }
+
+    #top_menu .menu-item{
+        padding: 10px 15px;
+    }
+
+    #top_menu .menu-item:hover{
+        background-color: #1e1e1e;
+        cursor: default;
+    }
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body{
+    padding: 0;
+    margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.sub-category{
+    color: white;
 }

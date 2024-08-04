@@ -5,12 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05fb99bd-58d9-49fb-94b9-37115260dc35" name="Changes" comment="Реализация монорепозитория">
-      <change afterPath="$PROJECT_DIR$/packages/host/vite.dev.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/developer-console/vite.dev.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/profile/vite.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/profile/vite.dev.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/app-catalog/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app-catalog/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/host/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/host/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/app-catalog/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app-catalog/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/app-catalog/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app-catalog/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/app-catalog/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/app-catalog/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app-catalog/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/host/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/packages/host/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/host/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/host/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/host/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/host/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/host/src/main.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/host/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/host/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/host/vite.dev.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/host/vite.dev.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +63,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Projects/Freedom/MF/monorepository/packages/app-catalog",
+    "last_opened_file_path": "C:/Projects/Freedom/MF/monorepository/packages/developer-console",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -72,6 +80,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\Freedom\MF\monorepository\packages\developer-console" />
+      <recent name="C:\Projects\Freedom\MF\monorepository\packages\profile" />
       <recent name="C:\Projects\Freedom\MF\monorepository\packages\app-catalog" />
       <recent name="C:\Projects\Freedom\MF\monorepository\packages\host" />
     </key>
@@ -155,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722742014066</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Реализация монорепозитория">
+      <option name="closed" value="true" />
+      <created>1722743364621</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722743364621</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
