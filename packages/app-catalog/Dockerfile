@@ -1,7 +1,7 @@
 FROM node:latest
 
 WORKDIR ./home/source
-COPY . .
+COPY /home/source .
 
 RUN apt update && apt -y install nginx && apt -y install nano
 RUN npm install && npm run build
