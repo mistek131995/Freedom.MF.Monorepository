@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="05fb99bd-58d9-49fb-94b9-37115260dc35" name="Changes" comment="Пайплайн сборки">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/app-catalog/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app-catalog/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/host/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/packages/host/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -218,7 +217,47 @@
       <option name="project" value="LOCAL" />
       <updated>1722773192893</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Пайплайн сборки">
+      <option name="closed" value="true" />
+      <created>1722773413769</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1722773413769</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Пайплайн сборки">
+      <option name="closed" value="true" />
+      <created>1722773499388</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1722773499388</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Пайплайн сборки">
+      <option name="closed" value="true" />
+      <created>1722773552452</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1722773552452</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Пайплайн сборки">
+      <option name="closed" value="true" />
+      <created>1722773610835</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1722773610835</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Пайплайн сборки">
+      <option name="closed" value="true" />
+      <created>1722773776953</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1722773776953</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
