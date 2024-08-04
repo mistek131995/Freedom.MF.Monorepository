@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05fb99bd-58d9-49fb-94b9-37115260dc35" name="Changes" comment="Пайплайн сборки">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HostDockerFile" beforeDir="false" afterPath="$PROJECT_DIR$/HostDockerFile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -408,7 +407,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722778431873</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Пайплайн сборки">
+      <option name="closed" value="true" />
+      <created>1722778635143</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1722778635143</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Пайплайн сборки">
+      <option name="closed" value="true" />
+      <created>1722778735130</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1722778735130</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

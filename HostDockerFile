@@ -5,7 +5,7 @@ COPY . .
 
 
 RUN apt update && apt -y install nginx &&  \
-    npm install -g pnpm && pnpm run build_host
+    npm install -g pnpm && pnpm run build_host && pnpm install typescript -g
 
 EXPOSE 80
 
