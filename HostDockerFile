@@ -1,11 +1,11 @@
 FROM node:latest
 
-WORKDIR ./home/source
+WORKDIR /home/source
 COPY . .
 
 
 RUN apt update && apt -y install nginx &&  \
-    npm install pnpm #&& pnpm install && pnpm run build_host
+    npm install pnpm && pnpm install #&& pnpm run build_host
 
 EXPOSE 80
 
