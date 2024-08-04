@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05fb99bd-58d9-49fb-94b9-37115260dc35" name="Changes" comment="Пайплайн сборки">
-      <change beforePath="$PROJECT_DIR$/HostDockerFile" beforeDir="false" afterPath="$PROJECT_DIR$/HostDockerFile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkinsfile-host" beforeDir="false" afterPath="$PROJECT_DIR$/jenkinsfile-host" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -343,7 +343,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722776794652</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Пайплайн сборки">
+      <option name="closed" value="true" />
+      <created>1722776921676</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1722776921676</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
