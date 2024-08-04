@@ -1,7 +1,7 @@
 FROM node:latest
 
 WORKDIR ./home/source
-COPY ../../. .
+COPY . .
 
 RUN apt update && apt -y install nginx &&  \
     npm install @originjs/vite-plugin-federation &&  \
