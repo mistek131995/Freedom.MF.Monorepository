@@ -3,8 +3,9 @@ FROM node:latest
 WORKDIR ./home/source
 COPY . .
 
+RUN npm install pnpm
 RUN apt update && apt -y install nginx &&  \
-    npm install pnpm && pnpm install && pnpm run build_host
+    pnpm install && pnpm run build_host
 
 EXPOSE 80
 
