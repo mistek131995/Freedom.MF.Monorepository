@@ -24,5 +24,11 @@ pipeline
                 build job: 'MF.AppCatalog', parameters: []
             }
         }
+
+        stage('Clear images') {
+            steps {
+                sh "docker system prune -af"
+            }
+        }
     }
 }

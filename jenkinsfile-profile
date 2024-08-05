@@ -6,14 +6,14 @@ pipeline
         stage('Build image')
         {
             steps {
-				sh 'docker build -f DockerfileHost -t mf.host.${BUILD_NUMBER} /home/source'
+				sh 'docker build -f DockerfileProfile -t mf.profile.${BUILD_NUMBER} /home/source'
             }
         }
         stage('Stop container')
         {
             steps {
                 script{
-                    def containerId = sh (script: 'docker ps -q -f name=mf.host', returnStdout: true)
+                    def containerId = sh (script: 'docker ps -q -f name=mf.profile', returnStdout: true)
 
                     if(containerId != ''){
                         sh "docker stop ${containerId}"
@@ -24,7 +24,7 @@ pipeline
         stage('Run container')
         {
             steps {
-				sh 'docker run -d -p 80:80 --name=mf.host.${BUILD_NUMBER} --restart=always mf.host.${BUILD_NUMBER}'
+				sh 'docker run -d -p 82:80 --name=mf.profile.${BUILD_NUMBER} --restart=always mf.profile.${BUILD_NUMBER}'
             }
         }
     }

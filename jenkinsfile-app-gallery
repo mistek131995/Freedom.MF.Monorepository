@@ -27,10 +27,5 @@ pipeline
 				sh 'docker run -d -p 81:80 --name=mf.app_catalog.${BUILD_NUMBER} --restart=always mf.app_catalog.${BUILD_NUMBER}'
             }
         }
-        stage('Clear images') {
-            steps {
-                sh "docker system prune -af"
-            }
-        }
     }
 }

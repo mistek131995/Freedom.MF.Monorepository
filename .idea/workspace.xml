@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05fb99bd-58d9-49fb-94b9-37115260dc35" name="Changes" comment="Пайплайн сборки">
-      <change beforePath="$PROJECT_DIR$/DockerfileAppCatalog" beforeDir="false" afterPath="$PROJECT_DIR$/DockerfileAppCatalog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkinsfile-app-gallery" beforeDir="false" afterPath="$PROJECT_DIR$/jenkinsfile-app-gallery" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkinsfile-host" beforeDir="false" afterPath="$PROJECT_DIR$/jenkinsfile-host" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/profile/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/DockerfileProfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/profile/jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/jenkinsfile-profile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -495,7 +501,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722818275730</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Пайплайн сборки">
+      <option name="closed" value="true" />
+      <created>1722818315857</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1722818315857</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Пайплайн сборки">
+      <option name="closed" value="true" />
+      <created>1722818585422</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1722818585422</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
