@@ -23,6 +23,7 @@ pipeline
                 build job: 'MF.Host', parameters: []
                 build job: 'MF.AppCatalog', parameters: []
                 build job: 'MF.Profile', parameters: []
+                build job: 'MF.DeveloperConsole', parameters: []
             }
         }
 

@@ -1,0 +1,31 @@
+pipeline
+{
+    agent any
+    stages
+    {
+        stage('Build image')
+        {
+            steps {
+				sh 'docker build -f DockerfileDeveloperConsole -t mf.developer-console.${BUILD_NUMBER} /home/source'
+            }
+        }
+        stage('Stop container')
+        {
+            steps {
+                script{
+                    def containerId = sh (script: 'docker ps -q -f name=mf.developer-console', returnStdout: true)
+
+                    if(containerId != ''){
+                        sh "docker stop ${containerId}"
+                    }
+                }
+            }
+        }
+        stage('Run container')
+        {
+            steps {
+				sh 'docker run -d -p 82:80 --name=mf.developer-console.${BUILD_NUMBER} --restart=always mf.developer-console.${BUILD_NUMBER}'
+            }
+        }
+    }
+}

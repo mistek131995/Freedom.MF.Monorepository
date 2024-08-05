@@ -10,6 +10,7 @@
     "build_host": "pnpm --prefix ./packages/host build",
     "build_app_catalog": "pnpm --prefix ./packages/app-catalog build",
     "build_profile": "pnpm --prefix ./packages/profile build",
+    "build_developer_console": "pnpm --prefix ./packages/developer-console build",
     "preview": "pnpm  --parallel --filter \"./**\" preview",
     "stop": "kill-port --port 5000,5001"
   },
