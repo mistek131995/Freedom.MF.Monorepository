@@ -13,7 +13,7 @@ pipeline
         {
             steps {
                 script{
-                    def containerId = sh (script: 'docker ps -q -f name=mf.developer-console', returnStdout: true)
+                    def containerId = sh (script: 'docker ps -q -f name=mf.developer_console', returnStdout: true)
 
                     if(containerId != ''){
                         sh "docker stop ${containerId}"
@@ -24,7 +24,7 @@ pipeline
         stage('Run container')
         {
             steps {
-				sh 'docker run -d -p 83:80 --name=mf.developer-console.${BUILD_NUMBER} --restart=always mf.developer-console.${BUILD_NUMBER}'
+				sh 'docker run -d -p 83:80 --name=mf.developer_console.${BUILD_NUMBER} --restart=always mf.developer_console.${BUILD_NUMBER}'
             }
         }
     }
