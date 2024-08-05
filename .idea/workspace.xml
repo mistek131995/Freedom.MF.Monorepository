@@ -479,7 +479,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722817585985</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Пайплайн сборки">
+      <option name="closed" value="true" />
+      <created>1722818051774</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1722818051774</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Пайплайн сборки">
+      <option name="closed" value="true" />
+      <created>1722818275730</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1722818275730</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
