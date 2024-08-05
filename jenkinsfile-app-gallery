@@ -6,7 +6,7 @@ pipeline
         stage('Build image')
         {
             steps {
-				sh 'docker build -t mf.app_catalog.${BUILD_NUMBER} /home/source/packages/app-catalog'
+				sh 'docker build -f DockerfileAppCatalog -t mf.app_catalog.${BUILD_NUMBER} /home/source'
             }
         }
         stage('Stop container')
