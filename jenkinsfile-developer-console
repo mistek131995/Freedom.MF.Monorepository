@@ -6,7 +6,7 @@ pipeline
         stage('Build image')
         {
             steps {
-				sh 'docker build -f DockerfileDeveloperConsole -t mf.developer-console.${BUILD_NUMBER} /home/source'
+				sh 'docker build -f DockerfileDeveloperConsole -t mf.developer_console.${BUILD_NUMBER} /home/source'
             }
         }
         stage('Stop container')

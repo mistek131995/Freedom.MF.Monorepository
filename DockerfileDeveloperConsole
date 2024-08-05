@@ -4,7 +4,7 @@ WORKDIR ./home/source
 COPY . .
 
 RUN apt update && apt -y install nginx &&  \
-    npm install -g pnpm && pnpm install && pnpm run build_profile
+    npm install -g pnpm && pnpm install && pnpm run build_developer_console
 
 RUN mv -f ./packages/developer-console/default /etc/nginx/sites-available
 
