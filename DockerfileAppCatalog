@@ -6,7 +6,7 @@ COPY . .
 RUN apt update && apt -y install nginx &&  \
     npm install -g pnpm && pnpm install && pnpm run build_app_catalog
 
-RUN mv -f ./default /etc/nginx/sites-available
+RUN mv -f ./package/app-catalog/default /etc/nginx/sites-available
 
 EXPOSE 81
 
