@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05fb99bd-58d9-49fb-94b9-37115260dc35" name="Changes" comment="Пайплайн сборки">
+      <change afterPath="$PROJECT_DIR$/packages/app-catalog/src/components/app-categories/items.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/host/src/components/top-men/TopMenu.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DockerfileDeveloperConsole" beforeDir="false" afterPath="$PROJECT_DIR$/DockerfileDeveloperConsole" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkinsfile-developer-console" beforeDir="false" afterPath="$PROJECT_DIR$/jenkinsfile-developer-console" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/app-catalog/src/components/app-categories/AppCategories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app-catalog/src/components/app-categories/AppCategories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/host/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/host/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -48,26 +53,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Projects/Freedom/MF/monorepository/packages/developer-console",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.build.executor": "Run",
-    "npm.build_host.executor": "Run",
-    "npm.preview.executor": "Run",
-    "settings.editor.selected.configurable": "editor.preferences.tabs",
-    "ts.external.directory.path": "C:\\Projects\\Freedom\\MF\\monorepository\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Projects/Freedom/MF/vite-project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.build_host.executor&quot;: &quot;Run&quot;,
+    &quot;npm.preview.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Projects\\Freedom\\MF\\monorepository\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Projects\Freedom\MF\monorepository\packages\developer-console" />
@@ -79,7 +84,7 @@
       <recent name="C:\Projects\Freedom\MF\monorepository" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build_host">
+  <component name="RunManager" selected="npm.preview">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -112,8 +117,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build_host" />
         <item itemvalue="npm.preview" />
+        <item itemvalue="npm.build_host" />
         <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
@@ -136,6 +141,8 @@
       <workItem from="1722702326873" duration="3870000" />
       <workItem from="1722735103662" duration="2032000" />
       <workItem from="1722742299510" duration="471000" />
+      <workItem from="1722949462794" duration="2039000" />
+      <workItem from="1722992344043" duration="1101000" />
     </task>
     <task id="LOCAL-00004" summary="Реализация монорепозитория">
       <option name="closed" value="true" />
