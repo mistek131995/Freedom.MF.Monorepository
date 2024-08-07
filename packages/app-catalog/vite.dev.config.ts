@@ -13,7 +13,7 @@ export default defineConfig({
       name: "catalog-components",
       filename: "remoteEntry.js",
       exposes: {
-        "./AppCategories" : "./src/components/app-categories/AppCategories.tsx"
+        "./AppCategories" : "./src/shared/components/app-categories/AppCategories.tsx"
       },
       shared: [
         "react"

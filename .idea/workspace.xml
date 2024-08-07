@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05fb99bd-58d9-49fb-94b9-37115260dc35" name="Changes" comment="Установил react router, обновил пакеты">
+    <list default="true" id="05fb99bd-58d9-49fb-94b9-37115260dc35" name="Changes" comment="Установил mobx-react-lite">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/app-catalog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app-catalog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/app-catalog/src/components/app-categories/AppCategories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app-catalog/src/components/app-categories/AppCategories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/host/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/host/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/host/src/components/top-men/TopMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/host/src/components/top-men/TopMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,23 +139,7 @@
       <workItem from="1722735103662" duration="2032000" />
       <workItem from="1722742299510" duration="471000" />
       <workItem from="1722949462794" duration="2039000" />
-      <workItem from="1722992344043" duration="3357000" />
-    </task>
-    <task id="LOCAL-00005" summary="Реализация монорепозитория">
-      <option name="closed" value="true" />
-      <created>1722743364621</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1722743364621</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Реализация монорепозитория">
-      <option name="closed" value="true" />
-      <created>1722753802255</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1722753802255</updated>
+      <workItem from="1722992344043" duration="5168000" />
     </task>
     <task id="LOCAL-00007" summary="Подготовка к деплою">
       <option name="closed" value="true" />
@@ -534,7 +517,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722993711549</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Установил react router, обновил пакеты">
+      <option name="closed" value="true" />
+      <created>1722996206419</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1722996206419</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Установил mobx-react-lite">
+      <option name="closed" value="true" />
+      <created>1722996248562</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1722996248562</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -549,6 +548,7 @@
     <MESSAGE value="Пайплайн сборки" />
     <MESSAGE value="Тест Ant Design" />
     <MESSAGE value="Установил react router, обновил пакеты" />
-    <option name="LAST_COMMIT_MESSAGE" value="Установил react router, обновил пакеты" />
+    <MESSAGE value="Установил mobx-react-lite" />
+    <option name="LAST_COMMIT_MESSAGE" value="Установил mobx-react-lite" />
   </component>
 </project>

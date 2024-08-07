@@ -11,11 +11,11 @@ const AppCategories = React.lazy(() => import('app_catalog/AppCategories'))
 const App = () => {
 
     return <Flex>
-        <Layout>
+        <Layout style={layoutStyle}>
             <Header>
                 <TopMenu/>
             </Header>
-            <Layout>
+            <Layout style={{minHeight: "280px"}}>
                 <Sider>
                     <AppCategories/>
                 </Sider>
@@ -28,14 +28,12 @@ const App = () => {
             </Footer>
         </Layout>
     </Flex>
-
-    // return <>
-    //     <TopMenu/>
-    //     <div>
-    //         <AppCategories/>
-    //     </div>
-    // </>
-
 }
+
+const layoutStyle = {
+    borderRadius: 8,
+    overflow: 'hidden',
+    width: '100%',
+};
 
 export default App
