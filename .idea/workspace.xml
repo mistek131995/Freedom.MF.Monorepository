@@ -7,8 +7,10 @@
     <list default="true" id="05fb99bd-58d9-49fb-94b9-37115260dc35" name="Changes" comment="Установил mobx-react-lite">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/app-catalog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app-catalog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/app-catalog/src/components/app-categories/AppCategories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app-catalog/src/components/app-categories/AppCategories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/host/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/host/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/app-catalog/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/app-catalog/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/app-catalog/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/app-catalog/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app-catalog/src/app/main.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +80,8 @@
       <recent name="C:\Projects\Freedom\MF\monorepository\packages\host" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\Freedom\MF\monorepository\packages\app-catalog\src\app" />
+      <recent name="C:\Projects\Freedom\MF\monorepository\packages\app-catalog\src\shared" />
       <recent name="C:\Projects\Freedom\MF\monorepository" />
     </key>
   </component>
