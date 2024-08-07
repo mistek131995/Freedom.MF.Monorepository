@@ -19,4 +19,16 @@ const items : MenuItem[] = [
         key: "main",
         label: "Главная"
     },
+    {
+        key: "app",
+        label: "Приложения"
+    },
+    {
+        key: "game",
+        label: "Игры"
+    },
+    {
+        key: "contacts",
+        label: "Контакты"
+    },
 ]
