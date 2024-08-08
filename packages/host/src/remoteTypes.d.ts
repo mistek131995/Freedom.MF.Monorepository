@@ -1,5 +1,6 @@
-declare module "app_catalog/AppCategories" {
-    const AppCategories: React.ComponentType;
 
-    export default AppCategories;
+declare module "app_catalog/AppCatalogIndex" {
+    const AppCatalogIndex: React.ComponentType;
+
+    export default AppCatalogIndex;
 }

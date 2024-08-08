@@ -3,10 +3,10 @@ import React from "react";
 import {TopMenu} from "./components/top-men/TopMenu.tsx";
 import { Flex, Layout } from 'antd';
 
-const { Header, Footer, Sider, Content } = Layout;
+const { Header, Footer, Content } = Layout;
 
 
-const AppCategories = React.lazy(() => import('app_catalog/AppCategories'))
+const AppCatalogIndex = React.lazy(() => import('app_catalog/AppCatalogIndex'))
 
 const App = () => {
 
@@ -15,14 +15,9 @@ const App = () => {
             <Header>
                 <TopMenu/>
             </Header>
-            <Layout style={{minHeight: "280px"}}>
-                <Sider>
-                    <AppCategories/>
-                </Sider>
-                <Content>
-
-                </Content>
-            </Layout>
+            <Content>
+                <AppCatalogIndex/>
+            </Content>
             <Footer>
 
             </Footer>
