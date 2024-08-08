@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05fb99bd-58d9-49fb-94b9-37115260dc35" name="Changes" comment="Заготовка под главную страницу">
-      <change afterPath="$PROJECT_DIR$/packages/app-catalog/src/entities/AppCardProps.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/app-catalog/src/features/app-card/AppCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/app-catalog/src/shared/ui/LikeButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/app-catalog/src/widgets/card-carousel/ui/AppCardCarousel.tsx" afterDir="false" />
+    <list default="true" id="05fb99bd-58d9-49fb-94b9-37115260dc35" name="Changes" comment="Карточка приложения, виджет слайдера группы карточек приложения, компоненты кнопок">
+      <change afterPath="$PROJECT_DIR$/packages/app-catalog/src/pages/index/model/AppCardItems.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/app-catalog/src/features/categories/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app-catalog/src/shared/ui/DownloadButton.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/app-catalog/src/pages/index/ui/Index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app-catalog/src/pages/index/ui/Index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/app-catalog/src/shared/ui/app-card/AppCard.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -157,15 +152,7 @@
       <workItem from="1723094340679" duration="630000" />
       <workItem from="1723097092314" duration="1170000" />
       <workItem from="1723134013495" duration="618000" />
-      <workItem from="1723134648806" duration="473000" />
-    </task>
-    <task id="LOCAL-00009" summary="Пайплайн сборки">
-      <option name="closed" value="true" />
-      <created>1722771262055</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1722771262055</updated>
+      <workItem from="1723134648806" duration="955000" />
     </task>
     <task id="LOCAL-00010" summary="Пайплайн сборки">
       <option name="closed" value="true" />
@@ -551,7 +538,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723084210983</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Карточка приложения, виджет слайдера группы карточек приложения, компоненты кнопок">
+      <option name="closed" value="true" />
+      <created>1723135205242</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1723135205242</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,6 +564,7 @@
     <MESSAGE value="Установил mobx-react-lite" />
     <MESSAGE value="Чистка app-catalog" />
     <MESSAGE value="Заготовка под главную страницу" />
-    <option name="LAST_COMMIT_MESSAGE" value="Заготовка под главную страницу" />
+    <MESSAGE value="Карточка приложения, виджет слайдера группы карточек приложения, компоненты кнопок" />
+    <option name="LAST_COMMIT_MESSAGE" value="Карточка приложения, виджет слайдера группы карточек приложения, компоненты кнопок" />
   </component>
 </project>
