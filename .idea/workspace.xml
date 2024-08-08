@@ -4,22 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05fb99bd-58d9-49fb-94b9-37115260dc35" name="Changes" comment="Чистка app-catalog">
-      <change afterPath="$PROJECT_DIR$/packages/app-catalog/src/entities/MenuItem.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/app-catalog/src/features/categories/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/app-catalog/src/features/categories/ui/Categories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/app-catalog/src/pages/index/model/CategoryItems.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/app-catalog/src/pages/index/ui/Index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/app-catalog/src/shared/ui/app-card/AppCard.tsx" afterDir="false" />
+    <list default="true" id="05fb99bd-58d9-49fb-94b9-37115260dc35" name="Changes" comment="Заготовка под главную страницу">
+      <change afterPath="$PROJECT_DIR$/packages/app-catalog/src/entities/AppCardProps.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/app-catalog/src/features/app-card/AppCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/app-catalog/src/shared/ui/LikeButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/app-catalog/src/widgets/card-carousel/ui/AppCardCarousel.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/app-catalog/src/app/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app-catalog/src/app/main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/app-catalog/src/shared/components/app-categories/AppCategories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/app-catalog/src/shared/components/app-categories/items.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/app-catalog/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app-catalog/vite.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/app-catalog/vite.dev.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app-catalog/vite.dev.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/host/remoteTypes.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/host/remoteTypes.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/host/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/host/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/host/src/remoteTypes.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/host/src/remoteTypes.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/app-catalog/src/features/categories/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app-catalog/src/shared/ui/DownloadButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/app-catalog/src/pages/index/ui/Index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app-catalog/src/pages/index/ui/Index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/app-catalog/src/shared/ui/app-card/AppCard.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,11 +84,11 @@
       <recent name="C:\Projects\Freedom\MF\monorepository\packages\host" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\Freedom\MF\monorepository\packages\app-catalog\src\features\app-card" />
+      <recent name="C:\Projects\Freedom\MF\monorepository\packages\app-catalog\src\widgets\card-carousel\ui" />
+      <recent name="C:\Projects\Freedom\MF\monorepository\packages\app-catalog\src\features\AppCardCarousel" />
       <recent name="C:\Projects\Freedom\MF\monorepository\packages\app-catalog\src\shared\ui" />
       <recent name="C:\Projects\Freedom\MF\monorepository\packages\app-catalog\src\features" />
-      <recent name="C:\Projects\Freedom\MF\monorepository\packages\app-catalog\src\app" />
-      <recent name="C:\Projects\Freedom\MF\monorepository\packages\app-catalog\src\shared" />
-      <recent name="C:\Projects\Freedom\MF\monorepository" />
     </key>
   </component>
   <component name="RunManager" selected="npm.preview">
@@ -159,15 +152,12 @@
       <workItem from="1722992344043" duration="5168000" />
       <workItem from="1723006710417" duration="8000" />
       <workItem from="1723075856136" duration="4084000" />
-      <workItem from="1723080658501" duration="3463000" />
-    </task>
-    <task id="LOCAL-00008" summary="Пайплайн сборки">
-      <option name="closed" value="true" />
-      <created>1722756592631</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1722756592631</updated>
+      <workItem from="1723080658501" duration="7057000" />
+      <workItem from="1723089423759" duration="34000" />
+      <workItem from="1723094340679" duration="630000" />
+      <workItem from="1723097092314" duration="1170000" />
+      <workItem from="1723134013495" duration="618000" />
+      <workItem from="1723134648806" duration="473000" />
     </task>
     <task id="LOCAL-00009" summary="Пайплайн сборки">
       <option name="closed" value="true" />
@@ -553,7 +543,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723004188694</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Заготовка под главную страницу">
+      <option name="closed" value="true" />
+      <created>1723084210982</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1723084210983</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,6 +568,7 @@
     <MESSAGE value="Установил react router, обновил пакеты" />
     <MESSAGE value="Установил mobx-react-lite" />
     <MESSAGE value="Чистка app-catalog" />
-    <option name="LAST_COMMIT_MESSAGE" value="Чистка app-catalog" />
+    <MESSAGE value="Заготовка под главную страницу" />
+    <option name="LAST_COMMIT_MESSAGE" value="Заготовка под главную страницу" />
   </component>
 </project>
