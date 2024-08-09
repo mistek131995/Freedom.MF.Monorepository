@@ -1,0 +1,20 @@
+div.app-card-carousel-container{
+    padding: 20px 10px;
+}
+
+div.app-card-carousel-container div:first-child, div.app-card-carousel-container div:last-child{
+    position: relative;
+}
+
+div.app-card-carousel-container div:first-child button.arrow, div.app-card-carousel-container div:last-child button.arrow{
+    position: absolute;
+    z-index: 1;
+    top: 140px;
+    height: 50px;
+}
+
+div.app-card-carousel-container div:last-child button.arrow{
+    position: absolute;
+    z-index: 1;
+    left: -45px;
+}

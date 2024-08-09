@@ -9,7 +9,7 @@ export const Index = () => {
         <Flex>
             <Categories items={CategoryItems}/>
         </Flex>
-        <Flex vertical={true}>
+        <Flex vertical={true} style={{width: "100%"}}>
             <AppCardCarousel items={items}/>
             <AppCardCarousel items={items}/>
             <AppCardCarousel items={items}/>
